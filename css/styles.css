@@ -1,0 +1,207 @@
+/* dm-sans-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/dm-sans-v14-latin-regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/dm-sans-v14-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/dm-sans-v14-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/dm-sans-v14-latin-regular.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/dm-sans-v14-latin-regular.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/dm-sans-v14-latin-regular.svg#DMSans') format('svg'); /* Legacy iOS */
+  }
+  /* dm-sans-500 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/dm-sans-v14-latin-500.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/dm-sans-v14-latin-500.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/dm-sans-v14-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/dm-sans-v14-latin-500.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/dm-sans-v14-latin-500.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/dm-sans-v14-latin-500.svg#DMSans') format('svg'); /* Legacy iOS */
+  }
+  /* dm-sans-500italic - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'DM Sans';
+    font-style: italic;
+    font-weight: 500;
+    src: url('../fonts/dm-sans-v14-latin-500italic.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/dm-sans-v14-latin-500italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/dm-sans-v14-latin-500italic.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/dm-sans-v14-latin-500italic.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/dm-sans-v14-latin-500italic.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/dm-sans-v14-latin-500italic.svg#DMSans') format('svg'); /* Legacy iOS */
+  }
+  /* dm-sans-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/dm-sans-v14-latin-700.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/dm-sans-v14-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/dm-sans-v14-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/dm-sans-v14-latin-700.woff') format('woff'), /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+         url('../fonts/dm-sans-v14-latin-700.ttf') format('truetype'), /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('../fonts/dm-sans-v14-latin-700.svg#DMSans') format('svg'); /* Legacy iOS */
+  }
+
+  .container {
+    width: 375px;
+    padding: 0 20px;
+    margin: 0 auto;
+    background: var(--dark-blue, #11131F);
+    
+  }
+  
+  @media only screen and (min-width: 768px) {
+    .container {
+      width: 768px;
+      padding: 0 32px;
+    }
+  }
+  
+  @media only screen and (min-width: 1280px) {
+    .container {
+      width: 1280px;
+      padding: 0 32px;
+    }
+  }
+  
+
+  /* Reset styles */
+:root {
+    --dark-blue: #11131f;
+    --white: #f6f5ef;
+    --light-green: #93abae;
+    --text-cart: rgba(246, 245, 239, 0.50);
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+  
+  p:last-child {
+    margin-bottom: 0;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  a {
+    color: currentColor;
+    text-decoration: none;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+  
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+  
+
+
+
+  .yahtsblock_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    gap: 40px;
+    padding-bottom: 80px;
+    }
+    
+    @media only screen and (min-width: 768px) {
+      .yahtsblock_container {
+        gap: 64px;
+        padding-bottom: 100px;
+        padding-left: 64px;
+      }
+    }
+    
+    @media only screen and (min-width: 1280px) {
+      .yahtsblock_container {
+        padding-bottom: 164px;
+        padding-left: 199px;
+      }
+    }
+
+    .yahtsblock_title {
+        color: var(--white);
+        max-width: 310px;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 1.1;
+        letter-spacing: -1.62px;
+    }
+    
+    @media only screen and (min-width: 768px) {
+        .yahtsblock_title {
+        font-size: 70px;
+        letter-spacing: -3.15px;
+        max-width: 641px;
+      }
+    }
+    
+    @media only screen and (min-width: 1280px) {
+      .yahtsblock_title {
+        font-size: 100px;
+        letter-spacing: -4.5px;
+        max-width: 882px;
+      }
+    }
+    
+    .anchor-btn {
+        color: var(--white);
+        background-color: var(--dark-blue);
+        border: 1px solid #F6F5EF;
+        border-radius: 60px;
+        display: flex;
+        padding: 14px 28px;
+        align-items: flex-start;
+    }
+
+  
+    .adv-img-third {
+        mask-image:  linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, #11131F 100%), url(../img/review/aboutblock/imgyaht3@1x.png), lightgray -86.838px 0px / 166.799% 100% no-repeat;
+        position: absolute;
+        bottom: -180px; /* Регулюйте відступ від заголовка */
+        left: 60%; /* Це зробить фото по центру блоку. Можна регулювати за потребою. */
+        transform: translateX(-50%); 
+    }
+
+        .aboutblock-img {
+            position: relative;
+        }
